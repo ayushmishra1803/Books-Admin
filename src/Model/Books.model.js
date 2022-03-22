@@ -9,11 +9,11 @@ const BooksSchema = new mongoose.Schema({
     required: true,
   },
   marked_price: {
-    type: String,
+    type: Number,
     required: true,
   },
   selling_price: {
-    type: String,
+    type: Number,
     required: true,
   },
   image: {
